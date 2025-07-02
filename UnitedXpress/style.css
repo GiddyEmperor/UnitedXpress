@@ -1,0 +1,112 @@
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #005f99;
+  color: white;
+  padding: 1rem;
+}
+
+header h1 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style: none;
+  margin-top: 1rem;
+}
+
+nav li {
+  margin: 0 1rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.hero {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: linear-gradient(to right, #0077cc, #00aaff);
+  color: white;
+}
+
+.hero h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: white;
+  color: #0077cc;
+  padding: 0.8rem 1.5rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.cta-button:hover {
+  background-color: #eef;
+}
+
+footer {
+  background-color: #005f99;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  position: relative;
+  bottom: 0;
+}
+.testimonials {
+  background-color: #fff;
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.testimonials h2 {
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+  color: #005f99;
+}
+
+.testimonial-box {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border-left: 4px solid #0077cc;
+  background-color: #f0f8ff;
+  max-width: 600px;
+  margin: 0 auto 2rem auto;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.testimonial-box blockquote {
+  font-style: italic;
+  margin-bottom: 0.5rem;
+}
+
+.testimonial-box p {
+  font-weight: bold;
+  color: #333;
+}
